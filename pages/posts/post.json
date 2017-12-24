@@ -1,0 +1,10 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "imoco",
+    "backgroundColor": "#AADDFF",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  }
+}

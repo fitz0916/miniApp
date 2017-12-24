@@ -1,0 +1,9 @@
+<!-- wxml文件是小程序页面骨架文件 -->
+<!--view是一个容器，类似div  -->
+<view class='container'>
+    <image class='user-avatar' src="/images/avatar/2.png"></image>
+    <text class='user-name'>welcome～<text style='color:red'>gousili</text></text>
+    <view class='moto-container' bindtap='onWelcome'>
+      <text class='moto'>开启小程序之旅</text> 
+    </view>
+</view>  

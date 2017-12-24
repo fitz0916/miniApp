@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4db", 
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "imoco",
+    "backgroundColor": "#AADDFF",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "debug":true
+}
