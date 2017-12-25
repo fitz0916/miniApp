@@ -12,7 +12,9 @@
         </swiper-item>
     </swiper>
     <block wx:for="{{postList}}" wx:key="item">
-    <!--template标签  -->
-      <template is='postItem' data='{{item}}'/>
+    <!--template标签 ...把数据平铺开，取数据不需要item.XX  template相当于一个占位符-->
+      <view catchtap='onPostTap' data-postId='{{item.postId}}'>
+        <template is='postItem' data='{{...item}}'/>
+      </view>
     </block>
 </view>
